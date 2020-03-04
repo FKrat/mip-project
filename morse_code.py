@@ -50,7 +50,7 @@ CODE = {' ': ' ',
         'Y': '-.--',
         'Z': '--..',
         '_': '..--.-'}
-ledPin=9
+ledPin=4
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(ledPin,GPIO.OUT)
 
